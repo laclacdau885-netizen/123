@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Thiết kế trang Header.html</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fff;
+      margin-top: 40px;
+    }
+
+    /* Logo phần đầu */
+    .logo img {
+      width: 150px;
+      height: auto;
+    }
+
+    /* Tiêu đề chào mừng */
+    h1 {
+      color: #006400;
+      font-size: 26px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+
+    /* Các liên kết đăng nhập, đăng ký, giỏ hàng */
+    .menu {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: blue;
+      margin: 0 5px;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      font-size: 18px;
+      vertical-align: middle;
+      margin-right: 3px;
+    }
+  </style>
+
+  <!-- Font Awesome (dùng cho icon) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Logo -->
+  <div class="logo">
+    <!-- Bạn có thể thay link hình logo khác nếu muốn -->
+    <img src="https://th.bing.com/th/id/R.037f31d1f228d585905302bba713ee97?rik=CQCmfN%2b4RGqLxg&pid=ImgRaw&r=0" alt="Bookstore Logo">
+  </div>
+
+  <!-- Tiêu đề -->
+  <h1>WELCOME TO SÁCH ABC</h1>
+
+  <!-- Menu -->
+  <div class="menu">
+    <i class="fa-solid fa-user icon"></i>
+    <a href="DangNhap.html">Đăng nhập</a> |
+    <a href="DangKy.html">Đăng ký</a> |
+    <i class="fa-solid fa-cart-shopping icon"></i>
+    <a href="#">Giỏ hàng (Trống)</a>
+  </div>
+  <title>Thiết kế trang Nav.html</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    ul {
+      list-style-type: disc;
+      display: inline-block;
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Ô tìm kiếm */
+    .search-box {
+      margin-top: 15px;
+    }
+
+    input[type="text"] {
+      width: 250px;
+      padding: 5px;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+    }
+
+    input[type="submit"] {
+      padding: 5px 10px;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+      background-color: #f2f2f2;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <ul>
+    <li><a href="#">TRANG CHỦ</a></li>
+    <li><a href="#">GIỚI THIỆU</a></li>
+    <li><a href="#">LIÊN HỆ</a></li>
+  </ul>
+  <div><input
+type="text"size="36"name="tsearch"placeholder="Hãy nhập tên sách cần tìm..."><input
+type="submit"value="Tìm sách"title="Tìm sách"></div>
+<body bgcolor="cyan">
+    <h1>Sách theo chủ đề</h1><br>
+    <br>
+    <ul>
+        <a href="https://mcbooks.vn/danh-muc/sach-hoc-tieng-anh/"><li>Ngoại ngữ</li></a>
+        <a href="https://dilib.vn/thu-vien/cong-nghe-thong-tin/"><li>Công nghệ thông tin</li></a>
+        <a href="https://sachvanhoc.com/"><li>Văn học</li></a>
+        <a href="https://sachluatvn.vn/"><li>Luật</li></a>
+        <a href="https://tailieuvui.com/sach/sach-kinh-te"><li>Kinh tế</li></a>
+    </ul><br>
+    <br>
+    <h1>Sách theo nhà xuất bản</h1>
+    <ul>
+        <li>Nhà xuất bản Tuổi trẻ</li>
+        <li>NXB Thống kê</li>
+        <li>NXB Kim Đồng </li>
+    </ul>
+    <h1><p align="center">SÁCH BÁN NHIỀU</p></h1>
+    <div style="text-align: center;">
+        <marquee direction="up" scrollamount="2" scrolldelay="100" onMouseMove="this.stop()" onMouseOut="this.start()" height="250">
+        <p>
+            <p align="center"><a href="#">
+            <img src="https://nxbhcm.com.vn/Image/Biasach/dacnhantam86.jpg" width="90" style="vertical-align: middle;" hspace="5">
+            Đắc Nhân Tâm
+        </a></p>
+    </p>
+    <p>
+        <p align="center"><a href="#">
+            <img src="https://down-vn.img.susercontent.com/file/074ea8c172ebe06b1337884b6b9bd791" width="90" style="vertical-align: middle;" hspace="5">
+            Đánh cắp ý tưởng
+        </a></p>
+    </p>
+    <p>
+        <p align="center"><a href="#">
+            <img src="https://bizweb.dktcdn.net/100/180/408/products/z4600566332512ed6b9ec5355773d8.jpg?v=1692377717820" width="90" style="vertical-align: middle;" hspace="5">
+            Nghĩ làm giàu
+        </a></p>
+    </p>
+    </marquee>
+</div>
+<h2><p align="center">LIÊN KẾT WEBSITE</p></h2>
+<p align="center"><select>
+    <option>--- Chọn trang liên kết ---</option>
+    <option value="https://shopee.vn/list/%C4%91%E1%BA%AFc%20nh%C3%A2n%20t%C3%A2m">Đắc Nhân Tâm</option>
+    <option value="https://shopee.vn/search?keyword=%C4%91%C3%A1nh%20c%E1%BA%AFp%20%C3%BD%20t%C6%B0%E1%BB%9Fng">Đánh cắp ý tưởng</option>
+    <option value="https://shopee.vn/search?keyword=%C4%91%C3%A1nh%20c%E1%BA%AFp%20%C3%BD%20t%C6%B0%E1%BB%9Fng">Nghĩ làm giàu</option>
+</select></p>
+<h4><p align="center">Đang online : 5</p></h4>
+<h4><p align="center">Đã truy cập : 12345</p></h4>
+</body>
+</html>
